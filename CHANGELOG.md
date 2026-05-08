@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.11.3](https://github.com/fr3nch13/actual-mcp/compare/v1.11.2...v1.11.3) (2026-05-08)
+
+
+### Bug Fixes
+
+* balance cutoff + dep upgrade + docs ([28052de](https://github.com/fr3nch13/actual-mcp/commit/28052de3363b948d00d87bf2efb5dcb572314e95))
+* **deps:** update dependency zod-to-json-schema to v3.25.2 ([#155](https://github.com/fr3nch13/actual-mcp/issues/155)) ([f4a3e90](https://github.com/fr3nch13/actual-mcp/commit/f4a3e90666605ce95fef3c392e8f459e695c0ab4))
+* inline multiline import to satisfy prettier ([ab42fbd](https://github.com/fr3nch13/actual-mcp/commit/ab42fbd302c2d2d63cad228b77df2ca71ff5b285))
+* pass far-future cutoff to getAccountBalance to include pending future-dated transactions ([be5bfc3](https://github.com/fr3nch13/actual-mcp/commit/be5bfc3e8ded334e5ede7f5a49a6b228fa3f17ef))
+* replace Date-based month parsing with string split in balance-calculator.ts ([aaf9493](https://github.com/fr3nch13/actual-mcp/commit/aaf9493dcd6ed3eabf971bb29b67033f63195cca))
+* resolve compilation errors after @actual-app/api upgrade ([e97c6eb](https://github.com/fr3nch13/actual-mcp/commit/e97c6ebc1b40e459a19467fbec05316d6852a979))
+* timezone bug in monthly summary aggregation ([711d700](https://github.com/fr3nch13/actual-mcp/commit/711d7005b03b8d86d0dfe85054d2c4fb6e1f8206))
+
 ## [1.11.2](https://github.com/s-stefanov/actual-mcp/compare/v1.11.1...v1.11.2) (2026-04-03)
 
 
